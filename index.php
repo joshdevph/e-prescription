@@ -11,6 +11,7 @@
 	.m-b-1em{ margin-bottom:1em; }
 	.m-l-1em{ margin-left:1em; }
 	.mt0{ margin-top:0; }
+	.mb{ margin-bottom:100; }
 	</style>
 </head>
 <body>
@@ -18,6 +19,7 @@
     <div class="container">
         <div class="page-header">
             <h1>Read Products</h1>
+			<a href='create.php' class='btn btn-success btn-sm '>Add Product</a>
             <?php
                 include 'controller/get_all_product.php'
             ?>
